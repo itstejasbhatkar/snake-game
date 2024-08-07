@@ -24,7 +24,7 @@ function main(ctime) {
     //     return;
     // }
     // console.log(ctime)
-    const snakespeed = (ctime - lastPaintTime)/1000;
+    const snakespeed = (ctime - lastPaintTime)/5000;
     if( snakespeed < 1/speed){
         return;
     }
